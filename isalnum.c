@@ -9,7 +9,7 @@ int isalnum(int n)
     return(0);
 }
 
-/* int main ()
+int main ()
 {
     int n;
     int result;
@@ -18,4 +18,4 @@ int isalnum(int n)
     result = isalnum(n);
     printf("Caracter verificado. Resultado: %d\n", result);
     return(0);
-} */
+}
