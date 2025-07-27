@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-int isalnum(int n);
+int ft_isprint(int n);
 
-int isalnum(int n)
+int ft_isprint(int n)
 {
-    if((n > 47 && n < 58) || (n > 64 && n < 90) || (n > 96 && n < 123))
+    if(n > 31 && n < 128)
         return(1);
     return(0);
 }
 
-int main ()
+int main()
 {
     int n;
     int result;
 
-    n = 10;
-    result = isalnum(n);
+    n = 32;
+    result = ft_isprint(n);
     printf("Caracter verificado. Resultado: %d\n", result);
     return(0);
 }
