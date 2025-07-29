@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/28 22:00:23 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 22:00:32 by rosousa-         ###   ########.fr       */
+/*   Created: 2025/07/28 22:22:48 by rosousa-          #+#    #+#             */
+/*   Updated: 2025/07/28 23:13:13 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,28 +14,44 @@
 #include <string.h>
 #include <stdio.h>
 
-void *ft_memcpy (void *dest, const void *src, size_t n);
+void *ft_memmove(void *dest, const void *src, size_t n);
 
-void *ft_memcpy (void *dest, const void *src, size_t n)
+void *ft_memmove(void *dest, const void *src, size_t n)
 {
     unsigned int i;
     i = 0;
 
+    // while(i < n--)
     while(i < n)
     {
-        // ((char *)dest)[i] = ((char *)src)[i];
-        *((char *)dest + i) = *((char *)src + i);
-        i++;
+        if(src > dest)
+        {
+            //caminho contrario
+            ((char *)dest)[n - 1] = ((char *)src)[n -1];
+            n--;
+        }
+        else
+        {
+            //caminho normal
+            ((char *)dest)[i] = ((char *)src)[i];
+            i++;
+        }
+
     }
     return(dest);
+
 }
 
 int main()
 {
+    char str2[] = "XXXXXXX";
     char str1[] = "Rodrigo";
-    char str2[8];
+    size_t n;
+    n = 3;
+
     printf("Resultado de str2 antes da fnc: %s\n", str2);
-    ft_memcpy(str2, str1, 8);
+    // memmove(str2, str1, n);
+    ft_memmove(str2, str1, n);
     printf("Resultado de str2 depois da fnc: %s\n", str2);
     return(0);
 }
