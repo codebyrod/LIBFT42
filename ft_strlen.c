@@ -6,11 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:44 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 22:23:44 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/07/28 23:42:43 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int ft_strlen(char *str);
 

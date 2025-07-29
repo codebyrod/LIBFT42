@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:22:48 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 23:13:13 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/07/28 23:42:30 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
 
 void *ft_memmove(void *dest, const void *src, size_t n);
 

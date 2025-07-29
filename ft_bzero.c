@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:22:53 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 22:22:54 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/07/28 23:43:23 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <strings.h>
-#include <stdio.h>
+#include "libft.h"
 
 void ft_bzero(void *str, size_t n);
 

@@ -6,11 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:00 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 22:23:01 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/07/28 23:41:59 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
 int ft_isalnum(int n);
 
