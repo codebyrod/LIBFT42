@@ -24,5 +24,4 @@ int ft_toupper(int n);
 
 
 
-
 #endif
