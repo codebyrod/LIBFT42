@@ -26,7 +26,7 @@ char *ft_strchr(const char *str, int sch_str)
 
 int main () 
 {
-   const char str[] = "Rodrigo";
+   const char str[] = "Rodriabcidefighj";
    const char ch = 'i';
    char *ret;
    char *ret2;
