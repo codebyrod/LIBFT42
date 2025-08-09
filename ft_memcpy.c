@@ -6,19 +6,19 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:00:23 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/07 21:26:14 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/09 20:53:05 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-void	*ft_memcpy(void *dest, const void *src, size_t n);
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	unsigned int	i;
 
 	i = 0;
+	if (dest == NULL && src == NULL)
+		return (NULL);
 	while (i < n)
 	{
 		*((char *)dest + i) = *((char *)src + i);

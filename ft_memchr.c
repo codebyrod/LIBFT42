@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 00:10:05 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/07 22:11:23 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/09 20:52:41 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-void	*ft_memchr(const void *str, int c, size_t n);
 
 void	*ft_memchr(const void *str, int c, size_t n)
 {

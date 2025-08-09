@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:34 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 15:19:06 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/09 20:52:35 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-int	ft_isprint(int n);
 
 int	ft_isprint(int n)
 {

@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:47 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/07 22:00:30 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/09 20:55:06 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-int	ft_lower(int n);
 
 int	ft_lower(int n)
 {

@@ -6,13 +6,11 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 21:59:05 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/07 21:59:22 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/09 20:54:36 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-char	*strrchr(const char *str, int c);
 
 char	*ft_strrchr(const char *str, int c)
 {
