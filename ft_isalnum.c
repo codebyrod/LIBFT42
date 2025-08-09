@@ -6,22 +6,22 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:00 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/28 23:41:59 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/07 22:40:45 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isalnum(int n);
+int	ft_isalnum(int n);
 
-int ft_isalnum(int n)
+int	ft_isalnum(int n)
 {
-    if((n > 47 && n < 58) || (n > 64 && n < 90) || (n > 96 && n < 123))
-        return(1);
-    return(0);
+	if ((n > 47 && n < 58) || (n > 64 && n < 91) || (n > 96 && n < 123))
+		return (1);
+	return (0);
 }
 
-int main ()
+/* int main ()
 {
     int n;
     int result;
@@ -30,4 +30,4 @@ int main ()
     result = ft_isalnum(n);
     printf("Caracter verificado. Resultado: %d\n", result);
     return(0);
-}
+} */

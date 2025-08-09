@@ -1,23 +1,39 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/08/07 21:42:58 by rosousa-          #+#    #+#             */
+/*   Updated: 2025/08/07 21:57:01 by rosousa-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-int ft_strncmp(const char *str1, const char *str2, size_t n);
+int	ft_strncmp(const char *str1, const char *str2, size_t n);
 
-int ft_strncmp(const char *str1, const char *str2, size_t n)
+int	ft_strncmp(const char *str1, const char *str2, size_t n)
 {
-    unsigned int    i;
-    i = 0;
+	unsigned int	i;
+	int				a;
+	int				b;
 
-    while(i < n && str1[i] != '\0' && str2[i] != '\0')
-    {
-        if(str1[i] > str2[i] || str1[i] < str2[i])
-        {
-            return (((int)(((unsigned char *)str1)[i])) - ((int)(((unsigned char *)str2)[i])));
-        }
-        i++;
-    }
-    return (0);
+	i = 0;
+	while (i < n && str1[i] != '\0' && str2[i] != '\0')
+	{
+		if (str1[i] > str2[i] || str1[i] < str2[i])
+		{
+			a = ((int)(((unsigned char *)str1)[i]));
+			b = ((int)(((unsigned char *)str2)[i]));
+			return (a - b);
+		}
+		i++;
+	}
+	return (0);
 }
-
+/* 
 int main()
 {
     const char *s1 = "Rodrigo";
@@ -53,4 +69,4 @@ int main()
     printf("5: %d\n", ft_strncmp(s1, s6, n));
 
     return (0);
-}
+} */

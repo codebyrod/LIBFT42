@@ -6,13 +6,13 @@
 #    By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/28 23:47:49 by rosousa-          #+#    #+#              #
-#    Updated: 2025/07/30 01:46:49 by rosousa-         ###   ########.fr        #
+#    Updated: 2025/08/07 20:36:39 by rosousa-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = cc 
 CFLAGS = -Wall -Werror -Wextra
-PROG = meu_programa
+NAME = libft.a
 
 SRC = \
 	ft_bzero.c \
@@ -30,18 +30,18 @@ SRC = \
 
 OBJS = $(SRC:.c=.o)
 
-all: $(PROG)
+all: $(NAME)
 
-$(PROG): $(OBJ)
-	ar rsc $(PROG) $(OBJ)
+$(NAME): $(OBJS)
+	ar rcs $(NAME) $(OBJS)
 
 %.o: %.c
 	$(CC) $(CCFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(OBJS)
 
 fclean: clean
-	rm -f $(PROG)
+	rm -f $(NAME)
 
 re: fclean all

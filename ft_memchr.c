@@ -6,29 +6,29 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 00:10:05 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/07/30 04:22:47 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/07 22:11:23 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memchr(const void *str, int c, size_t n);
+void	*ft_memchr(const void *str, int c, size_t n);
 
-void *ft_memchr(const void *str, int c, size_t n)
+void	*ft_memchr(const void *str, int c, size_t n)
 {
-    unsigned int    i;
-    i = 0;
+	unsigned int	i;
 
-    while(i < n)
-    {
-        if(((unsigned char *)str)[i] == (unsigned char)c)
-            return ((unsigned char *)str + i);
-        i++;
-    }
-    return (NULL);
+	i = 0;
+	while (i < n)
+	{
+		if (((unsigned char *)str)[i] == (unsigned char)c)
+			return ((unsigned char *)str + i);
+		i++;
+	}
+	return (NULL);
 }
 
-int main()
+/* int main()
 {
     char data[] = "Rodrigo";
     int c;
@@ -39,4 +39,4 @@ int main()
     printf("Saída: %s\n", (char *)ptr);
     
     return (0);
-}
+} */

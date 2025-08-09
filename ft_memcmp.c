@@ -1,31 +1,44 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/08/07 21:21:10 by rosousa-          #+#    #+#             */
+/*   Updated: 2025/08/07 21:22:56 by rosousa-         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-int ft_memcmp(const void *str1, const void *str2, size_t num);
+int	ft_memcmp(const void *str1, const void *str2, size_t num);
 
-int ft_memcmp(const void *str1, const void *str2, size_t num)
+int	ft_memcmp(const void *str1, const void *str2, size_t num)
 {
-unsigned int i = 0;
+	unsigned int	i;
 
-while(i < num)
-{
-    if((((char *)str1)[i]) > (((char *)str2)[i]))
-    {
-        printf("id: 0 \n");
-        return ((int)(((char *)str1)[i]) - (int)(((char *)str2)[i]));
-    } 
-    else if((((char *)str1)[i]) < (((char *)str2)[i]))
-    {
-        printf("id: 1 \n");
-        return ((int)(((char *)str1)[i]) - (int)(((char *)str2)[i]));
-    }
-    printf("id: 2 \n");
-    i++;
-}
-printf("id: 3 \n");
-return (0);
+	i = 0;
+	while (i < num)
+	{
+		if ((((char *)str1)[i]) > (((char *)str2)[i]))
+		{
+			printf("id: 0 \n");
+			return ((int)(((char *)str1)[i]) - (int)(((char *)str2)[i]));
+		}
+		else if ((((char *)str1)[i]) < (((char *)str2)[i]))
+		{
+			printf("id: 1 \n");
+			return ((int)(((char *)str1)[i]) - (int)(((char *)str2)[i]));
+		}
+		printf("id: 2 \n");
+		i++;
+	}
+	printf("id: 3 \n");
+	return (0);
 }
 
-int main()
+/* int main()
 {
     char str1[10];
     char str2[8];
@@ -64,4 +77,4 @@ int main()
     }
 
     return(0);
-}
+} */
