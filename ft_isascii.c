@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:12 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 20:52:24 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 22:39:11 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,3 @@ int	ft_isascii(int n)
 		return (1);
 	return (0);
 }
-
-/* int main()
-{
-    int n;
-    int result;
-
-    n = 130;
-    result = ft_isascii(n);
-    printf("Caracter verificado. Resultado: %d\n", result);
-    return(0);
-} */

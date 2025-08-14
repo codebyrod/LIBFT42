@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:47 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 20:55:06 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 22:41:25 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,3 @@ int	ft_lower(int n)
 		return (n + 32);
 	return (n);
 }
-
-/* int main()
-{
-    int n;
-    int result;
-
-    n = 65;
-    result = ft_lower(n);
-    printf("A letra de entrada é: %c\n", n);
-    printf("A letra de saída é: %c\n", result);
-    return(0);
-} */

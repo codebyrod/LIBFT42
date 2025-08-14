@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:00:23 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 20:53:05 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 22:39:58 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/* int main()
-{
-    char str1[] = "Rodrigo";
-    char str2[8];
-    printf("Resultado de str2 antes da fnc: %s\n", str2);
-    ft_memcpy(str2, str1, 8);
-    printf("Resultado de str2 depois da fnc: %s\n", str2);
-    return(0);
-} */

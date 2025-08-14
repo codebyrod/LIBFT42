@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:34 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 20:52:35 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 22:39:14 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,3 @@ int	ft_isprint(int n)
 		return (1);
 	return (0);
 }
-
-/* int main()
-{
-    int n;
-    int result;
-
-    n = 32;
-    result = ft_isprint(n);
-    printf("Caracter verificado. Resultado: %d\n", result);
-    return(0);
-} */

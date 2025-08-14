@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 21:59:05 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/09 20:54:36 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 22:41:18 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,18 +30,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (temp);
 }
-
-/* int main()
-{
-    const char str[] = "Rodriabcidefighj";
-    const char ch = 'i';
-    char *ret;
-    char *ret2;
-
-    ret = strrchr(str, ch);
-    ret2 = ft_strrchr(str, ch);
-    printf("String after |%c| is - |%s|\n", ch, ret);
-    printf("String after |%c| is - |%s|\n", ch, ret2);
-    return(0);
-    return (0);
-} */
