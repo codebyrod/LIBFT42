@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 21:36:09 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/13 22:40:31 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/13 23:03:13 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char	*ft_strchr(const char *str, int sch_str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (str[i] == sch_str)
+		if (str[i] == (char)sch_str)
 			return ((char *)str + i);
 		i++;
 	}
-	if (sch_str == '\0')
+	if ((char)sch_str == '\0')
 		return ((char *)str + i);
 	return (0);
 }
