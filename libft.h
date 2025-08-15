@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 22:16:08 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/13 19:38:06 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/14 23:43:58 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@
 # include <unistd.h>
 # include <bsd/string.h>
 
+int		ft_atoi(const char *str);
 void	ft_bzero(void *str, size_t n);
+void	*ft_calloc(size_t nmemb, size_t size);
 int		ft_isalnum(int n);
 int		ft_isalpha(int c);
 int		ft_isascii(int n);
@@ -32,10 +34,12 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
 char	*ft_strchr(const char *str, int sch_str);
+char	*ft_strdup(const char *str);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *str);
 int		ft_strncmp(const char *str1, const char *str2, size_t n);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*strrchr(const char *str, int c);
 int		ft_toupper(int n);
 int		ft_lower(int n);
