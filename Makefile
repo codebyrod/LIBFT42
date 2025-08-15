@@ -6,7 +6,7 @@
 #    By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/28 23:47:49 by rosousa-          #+#    #+#              #
-#    Updated: 2025/08/15 00:41:17 by rosousa-         ###   ########.fr        #
+#    Updated: 2025/08/15 18:41:24 by rosousa-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,12 +30,14 @@ SRC = \
 	ft_memset.c \
 	ft_strchr.c \
 	ft_strdup.c \
+	ft_strjoin.c \
 	ft_strlcpy.c \
 	ft_strlcat.c \
 	ft_strlen.c \
 	ft_strncmp.c \
 	ft_strnstr.c \
 	ft_strrchr.c \
+	ft_substr.c \
 	ft_tolower.c \
 	ft_toupper.c \
 
