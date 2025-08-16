@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 22:16:08 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/15 18:41:26 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/15 19:53:18 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,14 @@
 # define LIBFT_H
 
 # include <stdlib.h>
+# include <unistd.h>
+
+// APAGARRRR APAGA APAGA APAGARRRR APAGA APAGA
+# include <stdio.h>
+# include <bsd/string.h>
 # include <string.h>
 # include <strings.h>
-# include <stdio.h>
-# include <unistd.h>
-# include <bsd/string.h>
+// APAGARRRR APAGARRRR APAGA APAGA
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *str, size_t n);
@@ -34,6 +37,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
 char	*ft_strchr(const char *str, int sch_str);
+char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strdup(const char *str);
 char	*ft_strjoin(char const *s1, char const *s2);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);

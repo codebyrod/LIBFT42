@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/15 18:35:05 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/15 19:41:56 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/15 19:45:37 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_memcpy(new_str, s1, len_s1);
 	ft_strlcpy(new_str + len_s1, s2, len_s2 + 1);
 	return (new_str);
-
 }
 
 // // Função principal que será executada
