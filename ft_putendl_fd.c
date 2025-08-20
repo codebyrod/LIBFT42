@@ -6,13 +6,14 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/20 15:54:16 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/20 15:55:38 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/20 16:18:42 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *str, int fd)
 {
-	
+	ft_putstr_fd(str, fd);
+	ft_putchar_fd('\n', fd);
 }
