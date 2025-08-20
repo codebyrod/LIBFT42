@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/15 19:47:49 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/15 21:00:14 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/17 18:00:20 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,4 @@ char *ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	ft_strlcpy(new_str, s1 + start, size + 1);
 	return (new_str);
-
 }
