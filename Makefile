@@ -6,7 +6,7 @@
 #    By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/07/28 23:47:49 by rosousa-          #+#    #+#              #
-#    Updated: 2025/08/17 19:05:11 by rosousa-         ###   ########.fr        #
+#    Updated: 2025/08/20 09:21:11 by rosousa-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,6 +29,7 @@ SRC = \
 	ft_memmove.c \
 	ft_memcpy.c \
 	ft_memset.c \
+	ft_split.c \
 	ft_strchr.c \
 	ft_strdup.c \
 	ft_striteri.c \
