@@ -6,16 +6,16 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/19 22:51:44 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/20 18:26:41 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/20 21:48:07 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void		*ft_free_all(char **str);
+char			**ft_split(char const *str, char chr);
 static size_t	ft_count_word(char const *str, char chr);
 static size_t	ft_get_word_len(char const *str, char c);
-char			**ft_split(char const *str, char chr);
+static void		*ft_free_all(char **str);
 
 static void	*ft_free_all(char **str)
 {
