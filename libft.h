@@ -6,7 +6,7 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 22:16:08 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/20 15:54:04 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/20 21:25:39 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,6 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-
-// APAGARRRR APAGA APAGA APAGARRRR APAGA APAGA
-# include <stdio.h>
-# include <bsd/string.h>
-# include <string.h>
-# include <strings.h>
-# include <ctype.h>
-# include <limits.h>   // Para INT_MAX e INT_MIN
-// APAGARRRR APAGARRRR APAGA APAGA
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *str, size_t n);
@@ -58,6 +49,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len);
 char	*ft_strrchr(const char *str, int c);
 char	*ft_substr(char const *str, unsigned int start, size_t len);
 int		ft_toupper(int n);
-int		ft_lower(int n);
+int		ft_tolower(int n);
 
 #endif

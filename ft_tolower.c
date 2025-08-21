@@ -6,15 +6,15 @@
 /*   By: rosousa- <rosousa-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/28 22:23:47 by rosousa-          #+#    #+#             */
-/*   Updated: 2025/08/13 22:41:25 by rosousa-         ###   ########.fr       */
+/*   Updated: 2025/08/20 21:31:47 by rosousa-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_lower(int n)
+int	ft_tolower(int n)
 {
-	if (n > 65 && n < 91)
+	if (n >= 'A' && n <= 'Z')
 		return (n + 32);
 	return (n);
 }
